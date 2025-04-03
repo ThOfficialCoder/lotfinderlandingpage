@@ -49,6 +49,18 @@
       margin-top: 30px;
       max-width: 220px;
     }
+    .instructions {
+      font-size: 1rem;
+      margin-top: 30px;
+      color: #444;
+    }
+    .store-links a {
+      display: inline-block;
+      margin: 10px;
+      color: #007bff;
+      font-weight: 600;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -59,6 +71,19 @@
   </p>
 
   <img class="qr" src="./qr-code4.png" alt="QR Code to open LotFinder in Expo Go" />
+
+  <div class="instructions">
+    <p><strong>To try it out:</strong></p>
+    <ol>
+      <li>Install the <strong>Expo Go</strong> app:</li>
+    </ol>
+    <div class="store-links">
+      <a href="https://apps.apple.com/app/expo-go/id982107779" target="_blank">📱 iOS</a>
+      <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">📱 Android</a>
+    </div>
+    <ol start="2">
+      <li>Open Expo Go or your camera app and scan the QR code above</li>
+  </div>
 
   <p style="margin-top: 40px; font-size: 0.9rem; color: #777;">Built with Expo + React Native. Feedback welcome!</p>
 </body>
